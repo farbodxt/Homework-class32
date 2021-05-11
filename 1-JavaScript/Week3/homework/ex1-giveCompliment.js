@@ -1,38 +1,46 @@
 'use strict';
-/* -----------------------------------------------------------------------------
+/*------------------------------------------------------------------------------
+1. Complete the `filterPrivateData()` function. It should take a single 
+   argument: the array of employee records.
+2. It should create a _new_ array, containing employee data without the private
+   data.
+3. Use object destructuring to extract the non-private properties from an 
+   employee record (an `object`) and object literal shorthand to create a new 
+   employee record with just the non-private parts (name, occupation and email).
+4. Return the new array as the return value of the function.
+------------------------------------------------------------------------------*/
+const employeeRecords = [
+  {
+    name: 'John',
+    occupation: 'developer',
+    gender: 'M',
+    email: 'john.doe@somewhere.net',
+    salary: 50000,
+  },
+  {
+    name: 'Jane',
+    occupation: 'manager',
+    gender: 'F',
+    email: 'jane.eyre@somewhere.net',
+    salary: 60000,
+  },
+];
 
-1. Complete the function named `giveCompliment`as follows:
-
-   - It should take a single argument: `name`.
-   - Its function body should include a variable that holds an array,
-     `compliments`, initialized with 10 strings. Each string should be a
-     compliment, like `"great"`, `"awesome"` and so on.
-   - It should randomly select a compliment from the array.
-   - It should return the string "You are `compliment`, `name`!", where
-     `compliment` is a randomly selected compliment and `name` is the name that
-     was passed as the function's argument.
-
-2. Call the function three times, giving each function call the same argument:
-   your name.
-   Use `console.log` each time to display the return value of the
-   `giveCompliment` function to the console.
------------------------------------------------------------------------------*/
-function giveCompliment(/* TODO parameter(s) go here */) {
+function filterPrivateData(arr) {
   // TODO complete this function
+  const results = [];
+  for (const { name, occupation, email } of arr) {
+    results.push({ name, occupation, email });
+  }
+
+  return results;
 }
 
-// TODO substitute your own name for "HackYourFuture"
-const myName = 'HackYourFuture';
+filterPrivateData(employeeRecords);
+console.log(filterPrivateData(employeeRecords));
 
-console.log(giveCompliment(myName));
-console.log(giveCompliment(myName));
-console.log(giveCompliment(myName));
-
-const yourName = 'Amsterdam';
-
-console.log(giveCompliment(yourName));
-console.log(giveCompliment(yourName));
-console.log(giveCompliment(yourName));
-
-// ! Do not change or remove the code below
-module.exports = giveCompliment;
+// ! Do not change or remove any code below
+module.exports = {
+  employeeRecords,
+  filterPrivateData,
+};

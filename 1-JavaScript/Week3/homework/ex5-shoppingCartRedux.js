@@ -2,7 +2,6 @@
 /*------------------------------------------------------------------------------
 In the current exercise we will rewrite the `addToShoppingCart` function to make 
 it pure. Do the following:
-
 1. Complete the parameter list of `addToShopping()`. As a first parameter it 
    should accept a shopping cart array and as a second parameter it should 
    accept a grocery item to be added.
@@ -12,8 +11,13 @@ it pure. Do the following:
 4. When constructing the new shopping cart array you should make use of the ES5 
    spread syntax.
 ------------------------------------------------------------------------------*/
-function addToShoppingCart(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+function addToShoppingCart(shoppingCart, groceryItem) {
+  const shoppingCart2 = [...shoppingCart, groceryItem];
+
+  if (shoppingCart2.length > 3) {
+    shoppingCart2.shift();
+  }
+  return shoppingCart2;
 }
 
 const shoppingCart = ['bananas', 'milk'];
