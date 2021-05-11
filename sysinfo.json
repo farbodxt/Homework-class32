@@ -1,0 +1,51 @@
+{
+  "node": "v14.16.1",
+  "system": {
+    "manufacturer": "HP",
+    "model": "OMEN 30L Desktop GT13-0xxx"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i9-10850K",
+    "speed": 3.6
+  },
+  "memory": "32 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Home",
+    "release": "10.0.19042"
+  },
+  "vscodeInfo": {
+    "version": "1.56.0",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.jshint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "ecmel.vscode-html-css",
+      "esbenp.prettier-vscode",
+      "GitHub.vscode-pull-request-github",
+      "ms-python.python",
+      "ms-toolsai.jupyter",
+      "msjsdiag.debugger-for-chrome",
+      "ritwickdey.LiveServer",
+      "searKing.preview-vscode",
+      "streetsidesoftware.code-spell-checker",
+      "tht13.html-preview-vscode",
+      "Zignd.html-css-class-completion"
+    ],
+    "userSettings": {
+      "editor.wordWrap": "on",
+      "files.autoSave": "afterDelay",
+      "files.autoSaveDelay": 100,
+      "liveServer.settings.donotVerifyTags": true
+    }
+  }
+}
