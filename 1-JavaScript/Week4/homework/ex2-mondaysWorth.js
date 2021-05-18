@@ -48,7 +48,13 @@ console.log(`Total earnings: ${earnings}`); // -> "Total earnings: €187.50"
 
 // ! Do not change or remove the code below
 module.exports = {
+<<<<<<< HEAD
     computeEarnings,
     mondayTasks,
     hourlyRate,
+=======
+  computeEarnings,
+  mondayTasks,
+  hourlyRate,
+>>>>>>> Farbod-w3-javascript
 };

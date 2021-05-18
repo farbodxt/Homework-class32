@@ -38,6 +38,11 @@ console.log(sanitizeFruitBasket(fruitBasket, 'grapefruit'));
 
 // ! Do not change or remove the code below
 module.exports = {
+<<<<<<< HEAD
     sanitizeFruitBasket,
     fruitBasket,
+=======
+  sanitizeFruitBasket,
+  fruitBasket,
+>>>>>>> Farbod-w3-javascript
 };

@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "node": "v14.17.0",
   "system": {
     "manufacturer": "Acer",
@@ -10,6 +11,8 @@
     "brand": "Core™ i7-10750H",
     "speed": 2.6
 =======
+=======
+>>>>>>> Farbod-w3-javascript
   "node": "v14.16.1",
   "system": {
     "manufacturer": "HP",
@@ -19,6 +22,9 @@
     "manufacturer": "Intel®",
     "brand": "Core™ i9-10850K",
     "speed": 3.6
+<<<<<<< HEAD
+>>>>>>> Farbod-w3-javascript
+=======
 >>>>>>> Farbod-w3-javascript
   },
   "memory": "32 GB",
@@ -28,6 +34,7 @@
     "release": "10.0.19042"
   },
   "vscodeInfo": {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "version": "1.56.2",
     "extensions": [
@@ -61,6 +68,8 @@
       "git.enableSmartCommit": true,
       "git.autoRepositoryDetection": "subFolders"
 =======
+=======
+>>>>>>> Farbod-w3-javascript
     "version": "1.56.0",
     "extensions": [
       "aaron-bond.better-comments",
@@ -91,6 +100,9 @@
       "files.autoSave": "afterDelay",
       "files.autoSaveDelay": 100,
       "liveServer.settings.donotVerifyTags": true
+<<<<<<< HEAD
+>>>>>>> Farbod-w3-javascript
+=======
 >>>>>>> Farbod-w3-javascript
     }
   }

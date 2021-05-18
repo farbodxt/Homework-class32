@@ -115,6 +115,9 @@ const quiz = {
       a: 'Transferring € 50,00 from Jack to Joe', 
       b: 'Transferring € 50,00 from Jack to undefined', 
       c: 'Transferring € 50,00 from Jack to Jane' 
+<<<<<<< HEAD
+>>>>>>> Farbod-w3-javascript
+=======
 >>>>>>> Farbod-w3-javascript
     },
     q5: {
@@ -130,5 +133,8 @@ const quiz = {
 =======
     answer: undefined,
   },
+<<<<<<< HEAD
+>>>>>>> Farbod-w3-javascript
+=======
 >>>>>>> Farbod-w3-javascript
 };
