@@ -2,9 +2,7 @@
 The `doubleEvenNumbers` function returns only the even numbers in the array `
 myNumbers` and doubles them. While this code works as advertised we would like
 to use a more _functional_ approach.
-
 Let's rewrite it (or _refactor_ it, as professional developers would call it):
-
 - Using the `map` and `filter` functions, rewrite the function body of
 `doubleEvenNumbers`.
 ------------------------------------------------------------------------------*/

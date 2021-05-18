@@ -26,8 +26,11 @@ const employeeRecords = [
   },
 ];
 
-function filterPrivateData(/* parameter(s) go here */) {
-  // TODO complete this function
+function filterPrivateData(employees) {
+  const publicEmployeeRecords = employees.map(
+    ({ name, occupation, email }) => ({ name, occupation, email })
+  );
+  return publicEmployeeRecords;
 }
 
 console.log(filterPrivateData(employeeRecords));
@@ -35,5 +38,4 @@ console.log(filterPrivateData(employeeRecords));
 // ! Do not change or remove any code below
 module.exports = {
   employeeRecords,
-  filterPrivateData,
-};
+  filterPrivateData

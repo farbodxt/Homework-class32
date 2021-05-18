@@ -4,36 +4,28 @@ A software pattern that you may encounter in the future is a construct called
 the Observer Pattern. It enables "subscribers" (which are usually functions) to
 "subscribe" to "notifications" from a "publisher". Any number of subscribers can
 subscribe.
-
 Look at the code below:
-
 - The call to the `createPublisher` function returns an object. For ease of
   reference, let's call it a "Publisher" object here. The Publisher object has
   two properties, `subscribe` and `notify`, which are both functions. In this
   exercise you are required to complete them. (But continue reading first.)
-
 - As you can see below, the `createPublisher` function is called and the
   resulting Publisher object is assigned to the `myPublisher` variable.
-
 - Next, two "subscriber" functions are defined, notably `consoleUpperCase` and
   `consoleLowerCase`. A subscriber function is defined here as a function that
   takes a single parameter, `message`. It is up to the subscriber what to do
   with `message`. (The Publisher has no say in this!).
-
 - The "subscriber" functions are added as "subscribers" to `myPublisher` by
   calling its `subscribe` function. The `subscribe` function should take the
   function passed to it as an argument and push it onto the `subscribers` array.
   (Yes, you can store functions in an array. Functions are treated in JavaScript
   like any other value.
-
 - The standard `console.log` function, which also conforms to the minimum
   requirement for a "subscriber" (although it can take more than one argument)
   is also added as a subscriber.
-
 - Finally, a call to the Publisher's `notify` function is expected to iterate
   through, and call, all subscribers from the `subscribers` array, passing on the
   notification message to each subscriber.
-
 Good luck with completing `createPublisher`!
 */
 
