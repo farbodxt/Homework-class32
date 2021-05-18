@@ -39,3 +39,4 @@ console.log(filterPrivateData(employeeRecords));
 module.exports = {
   employeeRecords,
   filterPrivateData
+};
