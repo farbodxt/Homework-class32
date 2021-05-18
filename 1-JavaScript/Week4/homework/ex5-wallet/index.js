@@ -97,6 +97,7 @@ const quiz = {
         },
         answer: 'a',
     },
+<<<<<<< HEAD
     q4: {
         question: 'What is displayed in the console?',
         choices: {
@@ -105,6 +106,16 @@ const quiz = {
             c: 'Transferring € 50,00 from Jack to Jane'
         },
         answer: 'a',
+=======
+    answer: undefined,
+  },
+  q4: {
+    question: 'What is displayed in the console?',
+    choices: { 
+      a: 'Transferring € 50,00 from Jack to Joe', 
+      b: 'Transferring € 50,00 from Jack to undefined', 
+      c: 'Transferring € 50,00 from Jack to Jane' 
+>>>>>>> Farbod-w3-javascript
     },
     q5: {
         question: 'The owner of the wallet with insufficient funds is:',
@@ -115,4 +126,9 @@ const quiz = {
         },
         answer: 'c',
     },
+<<<<<<< HEAD
+=======
+    answer: undefined,
+  },
+>>>>>>> Farbod-w3-javascript
 };
