@@ -15,11 +15,11 @@ for (let i = 0; i < font.length; i++) {
 }
 
 const lama = document.getElementById('nickname');
-lama.textContent = 'Laaamaaaa';
+lama.textContent = 'Farbod';
 const food = document.getElementById('fav-food');
-food.textContent = 'Pizaaaaa';
+food.textContent = 'Spaghetti';
 const home = document.getElementById('hometown');
-home.textContent = 'Lattakia';
+home.textContent = 'Tehran';
 
 const ulElement = document.querySelectorAll('li');
 for (let i = 0; i < ulElement.length; i++) {
