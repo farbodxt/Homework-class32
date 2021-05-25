@@ -14,13 +14,31 @@
    of a cat dancing (use this URL given below), keep it dancing for 5 seconds, 
    and then replace the img with the original image and have it 
    continue the walk.
-
    Dancing cat URL:
-
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
+
+const img = document.querySelector('img');
+img.style.left = '0px';
+
 function catWalk() {
-  // TODO complete this function
+  img.style.left = `${parseFloat(img.style.left) + 10}px`;
+
+  if (parseFloat(img.style.left) > window.screen.availWidth) {
+    img.style.left = '0px';
+  }
+
+  if (parseFloat(img.style.left) > window.screen.availWidth / 2) {
+    clearInterval(move);
+    img.src =
+      ' https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+    setTimeout(function () {
+      img.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+      move = setInterval(catWalk, 50);
+    }, 5000);
+  }
 }
+let move = setInterval(catWalk, 50);
 
 // TODO execute `catWalk` when the browser has completed loading the page
+window.addEventListener('DOMContentLoaded', catWalk);
